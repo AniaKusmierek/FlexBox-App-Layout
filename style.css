@@ -22,3 +22,11 @@ body {
   background-color: #fff;
   box-shadow: 0 0 5rem rgba(0, 0, 0, 0.3);
 }
+.app_wrapp .content {
+  padding: 1rem;
+  /* margin: 1rem; */
+  box-shadow: inset 0 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.app_wrapp .content p {
+  margin: 1rem;
+}
