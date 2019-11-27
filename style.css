@@ -76,3 +76,25 @@ body {
   text-shadow: 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.1);
   padding-bottom: 1rem;
 }
+/* Flex */
+.app_wrapp {
+  display: flex;
+  flex-direction: column;
+}
+.app_wrapp > * {
+  flex: 1 1 auto;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content {
+  overflow-y: scroll;
+}
+.icon_bar {
+  display: flex;
+}
+.icon_bar a {
+  flex: 1;
+}
