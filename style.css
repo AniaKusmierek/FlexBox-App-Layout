@@ -11,6 +11,7 @@ body {
   font-size: 1.5rem;
   font-family: sans-serif;
   background-image: radial-gradient(#2376ae, #c16ecf);
+  overflow: hidden;
 }
 .app_wrapp {
   height: 90vh;
