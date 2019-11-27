@@ -12,3 +12,13 @@ body {
   font-family: sans-serif;
   background-image: radial-gradient(#2376ae, #c16ecf);
 }
+.app_wrapp {
+  height: 90vh;
+  max-width: 540px;
+  margin: 5vh auto;
+  border: 10px solid rgba(0, 0, 0, 0.8);
+  border-bottom-width: 70px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5rem rgba(0, 0, 0, 0.3);
+}
