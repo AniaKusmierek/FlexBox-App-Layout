@@ -50,3 +50,29 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 0.4rem;
 }
+.app_wrapp img {
+  float: left;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+.app_wrapp .icon_bar a {
+  margin: 0;
+  padding: 1.5rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  background-color: gold;
+  border-left: 0.1rem solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #fff;
+}
+.icon_bar a:first-child,
+.icon_bar a:hover {
+  border-bottom: 1rem solid rgba(0, 0, 0, 0.1);
+}
+.app_wrapp .icon_bar i {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+}
